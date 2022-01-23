@@ -96,7 +96,7 @@
    margin: auto;
    width: 80%;
    display: flex;
-   justify-content: space-between; 
+   justify-content: space-between;
 }  
 
 .description__two-columns_brief{
@@ -108,10 +108,11 @@
    font-size: 18px;
    margin: 0;
    color: #2f80ed;
+   font-weight: normal;
 }
 
 .description__two-columns_main-text{
-   width: 80%; 
+   width: 80%;
    min-width: 784px;
 }
 
@@ -207,15 +208,15 @@
    padding: 90px 0;
    background-color: #1f1f1f;
    position: relative;
-   overflow: hidden; 
+   overflow: hidden;
  }
 
  .kaufman__triangle{
    width: 877px;
-   height: 877px; 
+   height: 877px;
    position: absolute;
    top: 0;
-   right: -210px; 
+   right: -210px;
  }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -242,7 +243,7 @@
    background-color: #1f1f1f;
    margin: auto;
    padding-top: 60px;
-   padding-bottom: 40px;  
+   padding-bottom: 40px;
 }
 
 .footer__columms{
@@ -273,8 +274,8 @@
  .footer__columms_info{
    display: flex;
    flex-direction: column;
-   justify-content: flex-start; 
-   list-style: none; 
+   justify-content: flex-start;
+   list-style: none;
 }
 
 .footer__column-links{
@@ -358,7 +359,7 @@
    width: 1100px;
    padding: 0;
    margin: auto;
-   display: flex; 
+   display: flex;
    justify-content: space-between;
    align-items: stretch;
    list-style: none;
