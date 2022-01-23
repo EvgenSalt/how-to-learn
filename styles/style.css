@@ -137,23 +137,10 @@
 .digits{
    margin: 100px auto 0;
 }
-.digits__section-title{
-   margin: 0 auto 20px;
-}
-.digits__section-subtitle{
-   margin: auto;
-}
 .digits__table{
    margin: auto;
    width: 1100px;
    padding: 0;
-}
-.table{
-   display: flex; 
-   justify-content: space-between;
-   align-items: stretch;
-   list-style: none;
-   flex-wrap: wrap;
 }
 .digits__table_cell{
    width: 250px;
@@ -212,13 +199,29 @@
    top: 50%;
    right: 48px;
 }
+
+ /* kaufman */
+
+ .kaufman{
+   margin: 100px auto 0;
+ }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
    width: 200px;
    color: white;
    margin-right: 0;
    margin-top: 80px;
+}
+.kaufman__table{
+   padding: 0;
+   margin: auto;
+   border: 1px solid #ff0000;  /*временно  */
+}
+.kaufman__table_cell{
    
+   margin: 80px 0 0 0;
+   width: 200px;
+   border: 1px solid #ff0000;  /*временно  */
 }
  /*border: 1px solid #ff0000;  временно  */
 
@@ -229,8 +232,13 @@
    width: 183px;
    z-index: 2;
 }
-.section-title__width{
+.section-title__position{
+   margin: 0 auto 20px;
    width: 60%;
+}
+.subtitle-title__position{
+   width: 60%;
+   margin: auto;
 }
 .section-title__text{
    margin: 0;
@@ -245,6 +253,13 @@
    line-height: 34px;
    font-size: 24px;
    font-weight: normal;
+}
+.table{
+   display: flex; 
+   justify-content: space-between;
+   align-items: stretch;
+   list-style: none;
+   flex-wrap: wrap;
 }
 .table__cell_heading{
    margin: 0;
