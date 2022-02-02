@@ -35,11 +35,11 @@
   left: 64px;
 }
 
-.header__title_text {
+.header__title {
   width: 730px;
   padding: 0 0 0 64px;
   z-index: 2;
-  height: 96px;
+  line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   display: flex;
@@ -59,7 +59,7 @@
   font-weight: normal;
 }
 
-.heder__link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -168,7 +168,7 @@
   z-index: 1;
 }
 
-.table_cell {
+.table__cell {
   width: 250px;
   margin: 60px 0 0 0;
 }
@@ -241,7 +241,7 @@
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -250,11 +250,11 @@
   height: 877px;
   background-position: 0 245px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   position: absolute;
-  z-index: -1;
   bottom: 90px;
   right: -210px;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -266,9 +266,17 @@
   z-index: 1;
 }
 
-.table__theme_dark,
-.section-subtitle__theme_dark,
-.section-title__theme_dark {
+.section-title_theme_dark {
+  color: white;
+  z-index: 1;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  z-index: 1;
+}
+
+.table_theme_dark {
   color: white;
   z-index: 1;
 }
@@ -302,11 +310,13 @@
   flex-basis: 711px;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
   justify-content: space-between;
-  list-style: none;
   flex-basis: 711px;
   color: white;
 }
@@ -322,14 +332,8 @@
   margin: 18px 0;
 }
 
-.footer__content_columms_info {
-  display: flex;
-  flex-direction: column;
+.footer__column_content_info {
   color: white;
-}
-
-.footer__column-links:nth-child(3) {
-  margin-bottom: 16px;
 }
 
 .footer__column-heading {
@@ -340,24 +344,16 @@
 }
 
 .footer__column-links {
-  /* padding: 0; */
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  list-style: none;
-  display: flex;
-  text-decoration: none;
-  color: white;
-}
-
-.footer__columms_content_social {
   display: flex;
   flex-direction: column;
+  display: flex;
+}
+
+.footer__column_content_social {
   color: white;
 }
 
 .footer__column-link {
-  display: flex;
   align-items: center;
   line-height: 30px;
   font-size: 18px;
