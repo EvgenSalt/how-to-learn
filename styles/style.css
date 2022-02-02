@@ -36,6 +36,8 @@
 }
 
 .header__title {
+  margin-top: 0;
+  margin-bottom: 0;
   width: 730px;
   padding: 0 0 0 64px;
   z-index: 2;
@@ -295,10 +297,8 @@
   margin: auto;
   padding-top: 60px;
   padding-bottom: 40px;
-  height: 350px;
   min-height: 350px;
   display: flex;
-  flex-direction: column;
 }
 
 .footer__columns {
@@ -307,7 +307,6 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  flex-basis: 711px;
 }
 
 .footer__column {
@@ -316,6 +315,7 @@
 }
 
 .footer__column_content_copyright {
+  display: flex;
   justify-content: space-between;
   flex-basis: 711px;
   color: white;
