@@ -9,4 +9,5 @@
   bottom: 90px;
   right: -210px;
   z-index: -1;
+  animation: rotation 20s linear infinite;
 }
