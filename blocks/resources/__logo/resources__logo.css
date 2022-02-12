@@ -1,15 +1,15 @@
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 
-.header__link:hover {
+.resources__logo:hover {
   transition: transform 1.3s ease-out;
   transform: scale(1.2);
   opacity: 0.7;
 }
 
-.header__link:active {
+.resources__logo:active {
   transition: transform .7s ease-out;
   transform: scale(.2);
   opacity: 1;

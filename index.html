@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./how-to-learn/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 
@@ -22,7 +22,7 @@
         </a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Фото Опять двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -52,9 +52,9 @@
         <h2 class="section-title">
           Техники обучения
         </h2>
-        <h3 class="section-subtitle">
+        <p class="section-subtitle">
           Пять практик от Барбары Оакли
-        </h3>
+        </p>
         <div>
           <ul class="cards">
             <li class="cards__item">
@@ -112,14 +112,12 @@
         <h2 class="section-title">
           Видео нa TED
         </h2>
-        <h3 class="section-subtitle">
+        <p class="section-subtitle">
           Для тех, кто любит прокрастинировать
-        </h3>
+        </p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-            allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-            allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -143,9 +141,9 @@
         <h2 class="feynman__title">
           Метод Фейнмана
         </h2>
-        <h3 class="feynman__subtitle">
+        <p class="feynman__subtitle">
           Выучить и не забыть.
-        </h3>
+        </p>
         <a href="#" class="feynman__link" target="_blank">
           Подробнее &rarr;
         </a>
@@ -154,9 +152,9 @@
         <h2 class="section-title">
           Цифры и факты
         </h2>
-        <h3 class="section-subtitle">
+        <p class="section-subtitle">
           Про учёбу и мозг
-        </h3>
+        </p>
         <div>
           <ul class="table">
             <li class="table__cell">
@@ -260,13 +258,13 @@
         </div>
       </section>
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">
+        <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
-        </h3>
+        </p>
         <div>
           <ul class="table table_theme_dark">
             <li class="table__cell table__cell_theme_dark">
@@ -357,9 +355,9 @@
         <h2 class="section-title">
           Полезные ресурсы
         </h2>
-        <h3 class="section-subtitle">
+        <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
-        </h3>
+        </p>
         <nav class="resources__logo-zone">
           <a href="#" target="_blank">
             <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Файсбук">
@@ -382,41 +380,53 @@
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Яндекс Практикум">
           <p class="footer__author">&copy; 2022. Евгений Салтыков</p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">
             О Практикуме
           </h4>
-          <nav class="footer__column-links">
-            <a href="#" class="footer__column-link">
-              Главная
-            </a>
-            <a href="#" class="footer__column-link">
-              Концепция
-            </a>
-            <a href="#" class="footer__column-link">
-              Наставники
-            </a>
-          </nav>
-        </div>
-        <div class="footer__column footer__column_content_social">
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" href="#">
+                Главная
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                Концепция
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                Наставники
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">
             Соцсети
           </h4>
-          <nav class="footer__column-links">
-            <a href="#" class="footer__column-link">
-              <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Файсбук">
-              Facebook
-            </a>
-            <a href="#" class="footer__column-link">
-              <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВК">
-              Вконтакте
-            </a>
-            <a href="#" class="footer__column-link">
-              <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Инстаграм">
-              Instagram
-            </a>
-          </nav>
-        </div>
+          <ul class="footer__column-links">
+            <li>
+              <a href="#" class="footer__column-link">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Файсбук">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВК">
+                Вконтакте
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer__column-link">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Инстаграм">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>
